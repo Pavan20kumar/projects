@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+Section{
+    height: 100vh;
+ background-color: black;
+   
+}
+
+
+@media only screen and (max-width: 600px) {
+    .prot-img {
+      width: 190px;
+      position: relative;
+      top: 62px;
+      right: 22px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .dae {
+   position: relative;
+   top: 153px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .img-about {
+   position: relative;
+    left: 75px;
+    }
+  }
+ 
